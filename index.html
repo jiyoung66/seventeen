@@ -11,12 +11,12 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
-    color: #92A8D1;
+    color: #4f607f;
     line-height: 1.8;
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4, .bgimg-5 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,15 +32,27 @@ body, html {
 
                                                          /*2. 이미지 수정(가로 이미지 사용) */
 .bgimg-2 {
-    background-image: url("https://www.pledis.co.kr/_data/file/bbsData/de9c3d734188f2b4bdb18badede0cd8a.jpg");
+    background-image: url("https://pbs.twimg.com/media/EzdhxgkVIAUEXpQ?format=jpg&name=4096x4096");
     min-height: 400px;
 }
 
                                                          /*2. 이미지 수정(가로 이미지 사용) */
 .bgimg-3 {
-    background-image: url("https://cdn-contents-web.weverse.io/admin/xlx2048/jpg/6f8f293a176642ea990fc57bc15a5e69724.jpg");
+    background-image: url("https://pbs.twimg.com/media/EUeR-xoUcAELgE-?format=jpg&name=large");
     min-height: 400px;
 }
+
+                                                         /*2. 이미지 수정(가로 이미지 사용) */
+.bgimg-4 {
+    background-image: url("https://pbs.twimg.com/media/EzE30baVoAMMufX?format=jpg&name=4096x4096");
+    min-height: 400px;
+}
+
+.bgimg-5 {
+    background-image: url("https://www.pledis.co.kr/_data/file/bbsData/58b8899bd67d1d10cf3f880c90db9aa2.jpg");
+    min-height: 400px;
+}
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
@@ -48,7 +60,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
         background-attachment: scroll;
     }
 }
@@ -63,8 +75,8 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>                                                               <!-- 3. 메뉴수정 -->
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#link" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> LINK</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> PROFILE</a>
+    <a href="#link" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> 링크 </a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -84,91 +96,211 @@ body, html {
                                                                        <!-- 4. 대문 수정 -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+    <span class="w3-center w3-padding-large w3-gray w3-xlarge w3-wide w3-animate-opacity">
       SAY THE <span class="w3-hide-small">NAME</span> SEVENTEEN </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->                                     <!-- 5. 프로필 수정 -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">PROFILE</h3>
-  <p class="w3-center"><em>Nice to meet you</em></p>
+  <h3 class="w3-center">PHOTO</h3>
+  <p class="w3-center"><em>Click on a photo to see an enlarged photo</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>세븐틴</b></p><br><!-- 6. 프로필 이미지 -->
-      <img src="https://pbs.twimg.com/media/E5B5v3AVgAYlRWo?format=jpg&name=large"
-      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+     <!-- 6. 프로필 이미지 -->
+
+    </div>
+  </div>
+  <br>
+  <br>
+      <a href="sc.jpg" target="photo"> 
+          <img alt="" src="1.jpg">
+        
+      </a>
+       
+      <a href="jh.jpg"  target="photo">
+          <img alt="" src="2.jpg">
+      </a>
+       
+      <a href="js.jpg" target="photo">
+          <img alt="" src="3.jpg">
+      </a>
+       
+      <a href="j.jpg" target="photo">
+          <img alt="" src="4.jpg">
+      </a>
+       
+      <a href="hs.jpg" target="photo">
+          <img alt="" src="5.jpg">
+  
+        <a href="ww.jpg" target="photo">
+           <img alt="" src="6.jpg">  
+        </a>
+  
+        <a href="wz.jpg" target="photo">
+          <img alt="" src="7.jpg">
+      </a>
+
+      <a href="t8.jpg" target="photo">
+        <img alt="" src="8.jpg">
+      </a>
+  
+      <a href="mg.jpg" target="photo">
+        <img alt="" src="9.jpg">
+    </a>
+  
+    <a href="dk.jpg" target="photo">
+      <img alt="" src="10.jpg">
+  </a>
+  
+  <a href="sg.jpg" target="photo">
+    <img alt="" src="11.jpg">
+  </a>
+  
+  <a href="vn.jpg" target="photo">
+    <img alt="" src="12.jpg">
+  </a>
+  
+  <a href="dn.jpg" target="photo">
+    <img alt="" src="13.jpg">
+  </a>
+
+  <a href="33.jpg" target="photo">
+    <img alt="" src="22.jpg">
+  </a>
+  
+       
+      <br><br><br>
+       
+      <iframe src="78.jpg" width="950" height="705"aligan="center" 
+                  name="photo"></iframe>
+      </div>
+
     </div>
 
-    <!-- Hide this text on small devices -->
-                                                                       <!-- 7. 자기소개  -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-        <p>세븐틴은 13명의 멤버, 3개의 유닛이 모여 하나의 팀을 이룬다는 뜻이다. </p>
-        <p>데뷔일 - 2015.05.26</p>
-        <p>데뷔곡 - 아낀다</p>
-        <p>멤버</p>
-        <p>보컬팀 – WOOZI, 정한, 조슈아, 도겸, 승관</p>
-        <p>퍼포먼스팀 - 호시, 준, THE 8, 디노</p>
-        <p>힙합팀 - S.COUPS, 원우, 민규, Vernon</p>
-    </div>
-  </div>
-                                                                       <!-- 8. 그래프 수정 -->
-  <p class="w3-large w3-center w3-padding-16">SEVENTEEN</p>
-  <p class="w3-wide">0000</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
-  </div>
-  <p class="w3-wide">000</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">200%</div>
-  </div>
-  <p class="w3-wide">00</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">1000%</div>
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">Link</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">PROFILE</span>
   </div>
 </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">PROFILE</h3>
+  <p class="w3-center"><em>13Members + 3 Units + 1 Team = Seventeen</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>세븐틴</b></p><br><!-- 6. 프로필 이미지 -->
+      <img src="https://www.pledis.co.kr/_data/file/bbsData/f29b0eda6ac4ba0fbbcf4a9002482472.jpg"
+      class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
 
+    <!-- Hide this text on small devices -->
+                                                                       <!-- 7. 자기소개  -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <br> <br> <br> <br>
+        
+        <p>데뷔일 - 2015.05.26</p>
+        <p>데뷔곡 - 아낀다</p>
+        <p>멤버</p>
+        <p>보컬팀 – WOOZI, 정한, 조슈아, 도겸, 승관</p>
+        <p>퍼포먼스팀 - 호시, 준, THE 8, 디노</p>
+        <p>힙합팀 - S.COUPS, 원우, 민규, Vernon</p>
+        <p>세븐틴은 2015년 5월 26일 첫번째 미니앨범 '17 CARAT'으로 가요계에 첫 발을 내딛는 것과 동시에 슈퍼루키로 급부상했다. </p>
+        <p>팀 내 세 개의 각기 다른 유닛(힙합팀, 보컬팀, 퍼포먼스팀)이 하나의 그룹에 공존하며 자체제작 아이돌이라는 수식어에 걸맞게 각 팀 별로 전반적인 앨범제작에 참여하고 있다.</p>
+        <br><br><br>
+    </div>
+
+    </div>
+                                                                       <!-- 8. 그래프 수정 -->
+  <p class="w3-large w3-center w3-padding-16">SEVENTEEN</p>
+  <p class="w3-wide">보컬</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+  <p class="w3-wide">퍼포먼스</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">200%</div>
+  </div>
+  <p class="w3-wide">청량함</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">1000%</div>
+  </div>
 <!-- Container (link Section) -->
                                                                         <!-- 9. 강좌 소개 -->
-<div class="w3-content w3-container w3-padding-64" id="link">
-  <h3 class="w3-center">LINK </h3>
-  <p class="w3-center"><em>링크<br> </em></p><br>
-
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <a href="http://www.seventeen-17.com/" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Official Website</button></a>
-    <a href="https://www.instagram.com/saythename_17/" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Instagram</button></a>
-    <a href="https://twitter.com/pledis_17" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">twitte</button></a>
-    <a href="https://www.facebook.com/seventeennews" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">facebook</button></a>
-    <a href="https://www.youtube.com/user/pledis17" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">YouTube</button></a>
-    <a href="https://www.vlive.tv/channel/F99B3" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">V LIVE</button></a>
-  </div>
 
 </div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">MUSIC VIDEO</span>
+   </div>
+ </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">MV</h3>
+  <p class="w3-center"><em>Turn up the volume and listen</em></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+   
+    </div>
+<br>
+<iframe width="946" height="529" src="https://www.youtube.com/embed/yCvSR4lSqTg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="234" height="132" src="https://www.youtube.com/embed/0n8su37VyZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="234" height="132" src="https://www.youtube.com/embed/UB4FzllQCyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="234" height="132" src="https://www.youtube.com/embed/HdZdxocqzq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="234" height="132" src="https://www.youtube.com/embed/ap14O5-G7UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br><br><br>
+</div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">OFFICIAL SITE</span>
+  </div>
+</div>   
+  </div>
+
+      </div>
+      <div class="w3-content w3-container w3-padding-64" id="link">
+        <h3 class="w3-center">LINK </h3>
+        <p class="w3-center"><em>Official Website<br> </em></p><br>
+      
+      
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+          <a href="http://www.seventeen-17.com/" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Official Website</button></a>
+          <a href="https://www.weverse.io/seventeen/feed" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Weverse</button></a>
+          <a href="https://twitter.com/pledis_17" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">twitte</button></a>
+          <a href="https://www.facebook.com/seventeennews" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">facebook</button></a>
+          <a href="https://www.youtube.com/user/pledis17" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">YouTube</button></a>
+          <a href="https://www.vlive.tv/channel/F99B3" target="_blank"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">V LIVE</button></a>
+          <br><br>
+        </div>
+      
+      </div>
+      
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img id="img01" class="w3-image">
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+
+  </div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
 </div>
+
 
 <!-- Container (Contact Section) -->
                                                                                 <!-- 10. 본인 인적사항 수정!!! -->
@@ -181,14 +313,16 @@ body, html {
       <!-- Add Google Maps -->
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
-    <div class="w3-col m8 w3-panel">
+    <div class="w3-col m8 w3-panel"><br>
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> SEOUL, KR<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone : 전화번호 <br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: 이메일<br>
-        <i class="fa fa-comment fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Kakao Talk : 카카오톡 ID 혹은 인스타<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> TEL : 02-548-1677<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: protect@pledis.co.kr<br>
+        <i class="fa fa-comment fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> instagram : saythename_17<br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+ 
+      <img src="lo.png" width="30%">
+      <p><i class=""></i></p>
     </div>
   </div>
 </div>
